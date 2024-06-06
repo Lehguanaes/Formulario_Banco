@@ -1,8 +1,8 @@
 <?php
     require_once '../controller/conexao.php';
 
-    // Variaveis privadas para armazenar informações da pessoa
     class Pessoa{
+        // Variaveis privadas para armazenar informações da pessoa
         private $id;
         private $nome;
         private $endereco;
@@ -21,7 +21,6 @@
         }
         public function setId($id){
             $this->id = $id;
-
         }
         public function getNome(){
             return $this->nome;
